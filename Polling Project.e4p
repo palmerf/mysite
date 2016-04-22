@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Polling Project -->
-<!-- Saved: 2016-04-21, 18:29:54 -->
+<!-- Saved: 2016-04-21, 23:26:02 -->
 <!-- Copyright (C) 2016 Forrest Palmer, palmerforrst@gmail.com -->
 <Project version="5.1">
   <Language></Language>
@@ -13,13 +13,25 @@
   <Author>Forrest Palmer</Author>
   <Email>palmerforrst@gmail.com</Email>
   <TranslationPattern>locale/%language%/LC_MESSAGES/django.po</TranslationPattern>
+  <Eol index="-1"/>
   <Sources>
+    <Source>.gitignore</Source>
     <Source>__init__.py</Source>
     <Source>manage.py</Source>
     <Source>mysite/__init__.py</Source>
     <Source>mysite/settings.py</Source>
     <Source>mysite/urls.py</Source>
     <Source>mysite/wsgi.py</Source>
+    <Source>polls/__init__.py</Source>
+    <Source>polls/admin.py</Source>
+    <Source>polls/apps.py</Source>
+    <Source>polls/migrations/0001_initial.py</Source>
+    <Source>polls/migrations/__init__.py</Source>
+    <Source>polls/models.py</Source>
+    <Source>polls/templates/polls/index.html</Source>
+    <Source>polls/tests.py</Source>
+    <Source>polls/urls.py</Source>
+    <Source>polls/views.py</Source>
   </Sources>
   <Forms/>
   <Translations/>
@@ -27,6 +39,10 @@
   <Interfaces/>
   <Others>
     <Other>.gitignore</Other>
+    <Other>mysite/__pycache__/__init__.cpython-34.pyc</Other>
+    <Other>mysite/__pycache__/settings.cpython-34.pyc</Other>
+    <Other>mysite/__pycache__/urls.cpython-34.pyc</Other>
+    <Other>mysite/__pycache__/wsgi.cpython-34.pyc</Other>
   </Others>
   <Vcs>
     <VcsType>Git</VcsType>
