@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Polling Project -->
-<!-- Saved: 2016-04-22, 01:17:50 -->
+<!-- Saved: 2016-04-24, 13:36:32 -->
 <!-- Copyright (C) 2016 Forrest Palmer, palmerforrst@gmail.com -->
 <Project version="5.1">
   <Language></Language>
@@ -36,7 +36,9 @@
     <Source>polls/views.py</Source>
   </Sources>
   <Forms>
+    <Form>polls/templates/polls/detail.html</Form>
     <Form>polls/templates/polls/index.html</Form>
+    <Form>polls/templates/polls/results.html</Form>
   </Forms>
   <Translations/>
   <Resources/>
