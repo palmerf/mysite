@@ -4,5 +4,7 @@ li a {
 }
 
 body {
-    background: white url("images/background.jpg") no-repeat right bottom;
+    background: tan
 }
+
+# url("images/background.jpg") no-repeat right bottom;
